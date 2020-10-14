@@ -30,3 +30,6 @@ Electron 是由GitHub 发布的开源框架，官网-https://www.electronjs.org/
 4. npm install --save-dev electron
 5. 检测 electron 安装状态【1. npx electron -v 2. ./node_modules/.bin/electron -v】
 6. ** 也可以直接运行 ./node_modules/.bin/electron 来查看执行效果
+
+##### https://shimo.im/docs/TDtC6QCxpK36TGh8/ 《electron介绍和环境搭建》
+##### https://shimo.im/docs/DYddJJwvQJCXPGkH/ 《electron hello world》

@@ -1,37 +1,32 @@
 # electron-learning
 
 #### 介绍
-electron-learning
+学习electron，分享electron
 
-#### 软件架构
-软件架构说明
+#### electron简介
+electron -  [ɪˈlektrɑːn] - n. 电子
+Electron 是由GitHub 发布的开源框架，官网-https://www.electronjs.org/
 
+专注于桌面应用而不是 Web 服务器端
 
-#### 安装教程
+这不意味着 Electron 是某个图形用户界面（GUI）库的 JavaScript 版本。 相反，Electron 使用 web 页面作为它的 GUI，所以你能把它看作成一个被 JavaScript 控制的，精简版的 Chromium 浏览器。
+使用Web技术构建跨平台的桌面应用
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+###### Electron = Chromium + Node.js + Native API
+- Chromium： 为electron提供强大的UI能力，可以在不考虑兼容性的情况下利用web生态开发界面
+- Node.js: 让electron有了底层的操作能力，比如文件读写，并且可以使用大量的开源npm包来完成开发需求
+- Native API: Native API 让electron实现跨平台和桌面端原生能力
 
-#### 使用说明
+#### electron使用场景
+- 没有专门的桌面应用开发者，而需要前端兼顾来进行开发时。
+- 应用同时开发Web端和桌面端
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+有什么著名的应用程序是electron开发的，VSCode
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 搭建Electron开发环境
+1. 安装Node【最好使用v10以上版本】【Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。什么事情驱动、非阻塞式I/O，适合高并发应用使用。】
+2. 检测node 和 npm 安装状态，【node -v， npm -v】
+3. 新建文件夹-初始化 npm init
+4. npm install --save-dev electron
+5. 检测 electron 安装状态【1. npx electron -v 2. ./node_modules/.bin/electron -v】
+6. ** 也可以直接运行 ./node_modules/.bin/electron 来查看执行效果

@@ -1,0 +1,19 @@
+{
+  "name": "electron-learning",
+  "version": "1.0.0",
+  "description": "#### 介绍 学习electron，分享electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:zzx901225/electron-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.3"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "#### 介绍 学习electron，分享electron",
   "main": "main.js",
   "scripts": {
-    "test": "electron ."
+    "goelectron": "electron ."
   },
   "repository": {
     "type": "git",

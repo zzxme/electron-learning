@@ -10,11 +10,12 @@ app.on('ready', () => {
     width: 800,
     height: 800,
     webPreferences: {
-      nodeIntegration: true // 启用node集成
+      nodeIntegration: true, // 启用node集成
+      enableRemoteModule: true,
     }
   })   //设置打开的窗口大小
 
-  mainWindow.loadFile('index.html')  //加载那个页面
+  mainWindow.loadFile('demo2.html')  //加载那个页面
 
   mainWindow.webContents.openDevTools()
 

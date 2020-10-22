@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-window.onload = function() {
+window.onload = function () {
   var oBtn = this.document.querySelector("#btn");
   var oCarport = this.document.querySelector("#carport");
   oBtn.onclick = function () {

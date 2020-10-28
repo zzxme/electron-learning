@@ -15,6 +15,8 @@ app.on('ready', () => {
     }
   })   //设置打开的窗口大小
 
+  require('./main/menu.js')
+
   mainWindow.loadFile('demo2.html')  //加载那个页面
 
   mainWindow.webContents.openDevTools()

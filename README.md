@@ -35,3 +35,4 @@ Electron 是由GitHub 发布的开源框架，官网-https://www.electronjs.org/
 ##### https://shimo.im/docs/DYddJJwvQJCXPGkH/ 《electron hello world》
 ##### https://shimo.im/docs/Wx63gpjXqVdKpTpt/ 《electron enjoy demo》
 ##### https://shimo.im/docs/38TCw3kd6qDXDVKK/ 《electron remote demo》
+##### https://shimo.im/docs/HxYdxwH8kVYp6pKv/ 《electron 自定义菜单创建和使用》
